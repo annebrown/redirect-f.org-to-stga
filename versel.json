@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://savethegroveagain.com/",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "friendsofthegrove.org"
+        }
+      ]
+    },
+    {
       "source": "/:path*",
       "destination": "https://savethegroveagain.com/:path*",
       "permanent": true,
