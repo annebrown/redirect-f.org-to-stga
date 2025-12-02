@@ -20,6 +20,10 @@ Create GH repo with `vercel.json`:
 }
 ```
 
-The placeholder repo is deployed on Vercel, with the new project assigned to the FROM domain.
+Deploy repo on Vercel, then assign the new project to the FROM domain.
 
-The project then uses Vercel's redirect tool.
+Next, open the project settings and open 'Domains'.  Edit the domain to be directed from.
+
+Select `Redirect...` and `308 Permanent..` to ensure the SEO value (link equity) from the old domain is transferred to the new one.
+
+
